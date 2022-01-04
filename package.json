@@ -1,5 +1,13 @@
 {
   "name": "crypto_wallet",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rafaelsrabelo/crypto-wallet.git",
+  "author": "rafaelsrabelo10 <rafaelrabelodev@gmail.com>",
+  "license": "MIT"
 }

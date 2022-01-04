@@ -1,4 +1,12 @@
 module ApplicationHelper
+  def locale
+    if I18n == :en
+      "Estados unidos"
+    else
+      "Portugues do Brasil"
+    end
+  end
+
   def data_br(data_us)
     data_us.strftime("%d/%m/%Y")    
   end
